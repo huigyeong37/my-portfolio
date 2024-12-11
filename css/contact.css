@@ -1,0 +1,101 @@
+
+.shape1 {
+    position: fixed;
+    left: 10rem;
+    top: 20rem;
+}
+.shape2 {
+    position: fixed;
+    left: 20rem;
+    top: 7rem;
+}
+.shape1-2 {
+    position: fixed;
+    left: 35rem;
+    top: 15rem;
+}
+.shape1-3 {
+    position: fixed;
+    left: 77rem;
+    top: 40rem;
+}
+.shape1-4 {
+    position: fixed;
+    left: 98rem;
+    top: 17rem;
+}
+.shape1-5 {
+    position: fixed;
+    left: 15rem;
+    top: 40rem;
+}
+.shape1-1 {
+    position: fixed;
+    left: 80rem;
+    top: 8rem;
+}
+.shape2-1 {
+    position: fixed;
+    left: 70rem;
+    top: 20rem;
+}
+.shape2-2 {
+    position: fixed;
+    left: 30rem;
+    top: 30rem;
+}
+.shape2-3 {
+    position: fixed;
+    left: 90rem;
+    top: 30rem;
+}
+
+
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+.contact-main p {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #BEFF4D;
+}
+
+.contactme li {
+    list-style: none;
+}
+
+.contactme {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99px;
+    border: 1px solid white;
+    padding: 0rem 2rem;
+}
+.contactme:hover {
+    background-color: #BEFF4D;
+    color: black;
+}
+.contactme p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.contactme-wrap {
+    display: flex;
+    justify-content: center;
+}
+.contact-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: -2em;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
