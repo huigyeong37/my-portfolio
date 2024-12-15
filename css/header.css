@@ -1,0 +1,218 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Myeongjo&display=swap');
+
+body {
+    background: #121212;
+    color: #ffffff;
+    font-family: 'Inter';
+  }
+
+.mobile-display{
+  display: none;
+}
+
+@media only screen and (max-width: 639px) {
+
+  .mobile-display{
+      display: block;
+  }
+
+  .mobile-hidden{
+      display: none;
+  }
+  
+  
+}
+
+.body{
+  font-family: 'Inter';
+}
+
+#name {
+    font-weight: 800;
+  }
+  
+  .header ul {
+    list-style: none;
+    padding: 1rem;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    margin:0 auto;
+  }
+  
+  .header {
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #121212.6;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+  }
+  .header a{
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+  }
+ 
+  .logo {
+    font-family: "Archivo black" Black;
+    font-weight: 700;
+    font-size: large;
+  }
+  
+  /* .header ul.mobile-display {
+    display: none;
+  }
+   */
+
+
+   .header .spacer{
+    flex-grow:1;
+}   
+.header.mobile {
+    height: 4.25rem;
+    overflow: hidden;
+    transition: height 0.5s ;
+}
+.header.mobile .category{
+  flex-direction: column;
+}
+
+.header.mobile.open {
+    height: 20rem;
+}
+.header .mobile-menu-item-wrapper {
+    flex-direction: column;
+    margin-top:1rem;
+    gap: 1rem;
+}
+.header.mobile .close-button {
+    display: none;
+    cursor: pointer;
+}
+.header.mobile .open-button {
+    cursor: pointer;
+}
+.header.mobile.open .open-button {
+    display: none;
+}
+.header.mobile.open .close-button {
+    display: block;
+}
+
+
+
+
+  a {
+    text-decoration-line: none;
+    color: inherit;
+  }
+  
+  .category {
+    font-size: small;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+  }
+  
+  .category li a {
+    background-color: none;
+    color: white;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+  }
+  
+  .category li a.active{
+    background-color: white;
+    color: #121212;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 639px) {
+  
+    .header ul.mobile-display {
+      display: flex;
+      gap: 10rem;
+    }
+  
+    .header ul.mobile-hidden {
+      display: none;
+    }
+    
+      .footer {
+        padding: 0rem; /* 전체 패딩 축소 */
+      }
+    
+      .footer .logo {
+        width: 80px; /* 로고 크기 축소 */
+        font-size: 16px; /* 폰트 크기 축소 */
+      }
+    
+    .footer ul {
+      padding-right: 3rem;
+    }
+    .footer li {
+      text-align: center;
+    }
+      .footer ul li {
+        font-size: 12px; /* 글씨 크기 축소 */
+      }
+    
+  }
+  
+  /* 메뉴바 끝 */
+
+
+
+
+  /* 푸터입니다 늘 맨밑에... */
+  .footer {
+    width: 100vw;
+  }
+  .footer {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+  
+  .footer .logo {
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer ul {
+    font-weight: 500;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5rem;
+  }

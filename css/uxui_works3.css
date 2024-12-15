@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+ 
+ 
+    .title li{
+      font-size: 50%
+    } 
+    .title p{
+      font-size: 30px
+    } 
+    .title ul {
+      padding-top: 2rem !important;
+    }
+    
+    .works div{
+      display: flex;
+      flex-direction: column !important;
+    }
+    }
+    
+    .body {
+        font-family: 'Inter';
+    }
+
+ .title {
+        display: flex;
+        flex-direction: column;
+        gap: -2rem;
+        padding-top: 7rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-name {
+        font-weight: 700;
+        font-size: 30px;
+        height: 2rem;
+        color: #BEFF4D;
+    }
+    .title-content {
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.image img {
+    width: 50%;
+}
+.content {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    height: 1rem;
+    line-height: 25px;
+    padding-top: 2rem;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.video video {
+    width: 50%;
+}
+
+.image-screen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+}
+.image-screen img {
+    width: 250px;
+    border: 0.5px solid rgb(170, 170, 170);
+}
+.image-screen-1line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.image-screen-2line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.image-screen p {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+    .experience-button {
+        border-radius: 10rem;
+        border: 1px solid white;
+        display: inline-flex;
+        padding: 0px 20px;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 0rem 2rem;
+    }
+    
+    .experience-button p {
+        font-family: 'Inter' 400;
+        font-size: 1.5rem;
+    }
+    .experience {
+        display: flex;
+        justify-content: center;
+        padding : 5rem
+    }
+    

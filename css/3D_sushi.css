@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+ 
+ 
+    .title li{
+      font-size: 50%
+    } 
+    .title p{
+      font-size: 30px
+    } 
+    .title ul {
+      padding-top: 2rem !important;
+    }
+    
+    .works div{
+      display: flex;
+      flex-direction: column !important;
+    }
+    }
+    
+    .body {
+        font-family: 'Inter';
+    }
+
+
+ .title {
+        display: flex;
+        flex-direction: column;
+        gap: -2rem;
+        padding-top: 7rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-name {
+        font-weight: 700;
+        font-size: 30px;
+        height: 2rem;
+        color: #BEFF4D;
+    }
+    .title-content {
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .bold {
+        font-weight: 700;
+    }
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.image img {
+    width: 30%;
+}
+.image-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 3rem;
+}
+.image-group img {
+    width: 300px;
+    height: 410px;
+}
+
+
+.content {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    height: 1rem;
+    line-height: 25px;
+    padding-top: 2rem;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.video video {
+    width: 30%;
+}
+

@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+ 
+ 
+    .title li{
+      font-size: 50%
+    } 
+    .title p{
+      font-size: 30px
+    } 
+    .title ul {
+      padding-top: 2rem !important;
+    }
+    
+    .works div{
+      display: flex;
+      flex-direction: column !important;
+    }
+    }
+    
+    .body {
+        font-family: 'Inter';
+    }
+
+ .title {
+        display: flex;
+        flex-direction: column;
+        gap: -2rem;
+        padding-top: 7rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-name {
+        font-weight: 700;
+        font-size: 35px;
+        height: 2rem;
+        color: #BEFF4D;
+    }
+    .title-content {
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+.image img{
+    width: 50%;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.image1 {
+    border-radius: 200px;
+}
+.image2 {
+    padding-top: 3rem;
+}
+.image-content {
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    height: 0rem;
+}
+.image-group {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+.image-group img {
+    width: 400px ;
+    height: 570px;
+}
+.image-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #BEFF4D;
+    height: 0rem;
+}

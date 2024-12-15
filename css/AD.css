@@ -1,0 +1,175 @@
+@media (max-width: 768px) {
+ 
+ 
+  .advertitle li{
+    font-size: 50%
+  } 
+  .advertitle p{
+    font-size: 20px
+  } 
+  .advertitle ul {
+    padding-top: 2rem !important;
+  }
+
+  .works div{
+    display: flex;
+    flex-direction: column !important;
+  }
+  }
+
+.advertitle {
+    font-family: "Inter";
+    font-size: 110px;
+    font-weight: 100;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    filter: blur(5px);
+    transition: filter 5s ease;
+    z-index: 2;
+    position: relative;
+}
+.advertitle.active {
+filter: blur(0); /* 블러 제거 */
+}
+.advertitle ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+    margin: 0rem;
+    padding-top: 5rem;
+    margin-left: -3rem;
+ }
+.advertitle li {
+   list-style-type: none;
+}
+.adbackground {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-image: url('image/advertising/adver-3.png');  /*배경 이미지 */
+    background-size: cover; /* 이미지 크기 조정 */
+    background-position: top;/* 이미지 위치 */
+    background-attachment: fixed;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 5s;
+  }
+  .adbackground img{
+    width: 100vw; /* 너비 */
+  }
+  .adbackground.active {
+    opacity: 0.3;
+  }
+
+  .works-img1 {
+    position: relative;
+ /* 자를 사이즈를 명시해준다.*/
+    height: 375px;
+    width: 600px; 
+  }
+  .works-img img{
+      position: absolute;
+      /* 보일 위치.*/
+      top: 0;
+      left: 0;
+      transform: translate(50, 50);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin: auto;
+  }
+  
+
+ .title-text {
+  font-family: "Nanum Myeongjo", serif;
+  color: #BEFF4D;
+  font-weight: 200;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+  opacity: 1;
+}
+
+
+
+/* 카테고리입니다 */
+
+/* .dot {
+    border: white hidden;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    margin-right: 0.5rem;
+  }
+.category {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+.cateclick {
+    background-color: #BEFF4D;
+    padding: 0.5rem 1rem;
+    color: #121212;
+    border-radius: 8px;
+}
+.cateclick-not {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    color: #121212;
+    border-radius: 8px;
+} */
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.works-img{
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem; 
+}
+.works-img1{
+  position: relative;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  top: 0rem;
+  background: rgb(0, 0, 0, 0.8);
+  width: 600px;
+  height: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.works-img1:hover .overlay {
+  opacity: 1;
+}
+.overlay-title {
+  font-weight: 600;
+  font-size: 17px;
+}

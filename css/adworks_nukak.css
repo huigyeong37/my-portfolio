@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+ 
+ 
+    .title li{
+      font-size: 50%
+    } 
+    .title p{
+      font-size: 30px
+    } 
+    .title ul {
+      padding-top: 2rem !important;
+    }
+    
+    .works div{
+      display: flex;
+      flex-direction: column !important;
+    }
+    }
+    
+    .body {
+        font-family: 'Inter';
+    }
+
+ .title {
+        display: flex;
+        flex-direction: column;
+        gap: -2rem;
+        padding-top: 7rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-name {
+        font-weight: 700;
+        font-size: 35px;
+        height: 2rem;
+        color: #BEFF4D;
+    }
+    .title-content {
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+.image img{
+    width: 50%;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.image2 {
+    padding-top: 3rem;
+}
+.image-content {
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    height: 0rem;
+}
+.image-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+.image-group img {
+    width: 50% ;
+}
+
+.image-title1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #BEFF4D;
+    background-color: black;
+    border-radius: 300px;
+    border: 0.5px solid #BEFF4D;
+    padding: 1rem;
+    height: 5.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.image-title{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    padding-top: 3rem;
+}
+.image-title2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: black;
+    background-color: #BEFF4D;
+    border-radius: 300px;
+    padding: 1rem;
+    height: 5.5rem;
+    align-items: center;
+    display: flex;
+}
+.image-title-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 3rem;
+    height: 5rem;
+}
